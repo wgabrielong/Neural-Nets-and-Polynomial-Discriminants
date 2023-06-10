@@ -5,11 +5,11 @@ This GitHub repository contains code for the forthcoming paper "Neural Networks 
 Herein, we describe the functionality of each file: 
 
 <ul>
-  <li><b>polynomial_systems.py:</b> This file contains the main codebase for the generation and manipulation of parameterized polynomial systems. It is used to create different instances of polynomial systems and also provides the functionality to compute their solutions.</li>
+  <li><b>ED_computation.jl</b> contains the computation of solutions to the critical points of the hypersurface in $\mathbb{R}^{6}$ defining the function class of depth 1 width 0 neural networks. It returns a Julia dataframe with real critical points and their corresponding distances in $\mathbb{R}^{6}$ to the discriminant polynomial </li>
   
-  <li><b>neural_network.py:</b> This file provides the architecture for the traditional neural networks and neural networks with polynomial activation functions used in the study. It contains classes for defining, training, and evaluating the neural networks.</li>
+  <li><b>fiber_over_discriminant.jl</b> contains the code to compute the $w,b$-parameters that cause a neural network of width 2 depth 2 to correspond exactly to the discriminant polynomial. </li>
   
-  <li><b>discriminant_computation.py:</b> This script includes the code to compute the discriminant of the polynomial system. It uses both the traditional method involving Gröbner bases and the novel machine learning approach introduced in the paper.</li>
+  <li><b></b> This script includes the code to compute the discriminant of the polynomial system. It uses both the traditional method involving Gröbner bases and the novel machine learning approach introduced in the paper.</li>
   
   <li><b>data_generator.py:</b> This file is responsible for creating the dataset used for training and testing the neural networks. It generates parameters and their corresponding real root structures.</li>
   
