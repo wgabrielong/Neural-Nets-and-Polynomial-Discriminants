@@ -9,7 +9,7 @@ Herein, we describe the functionality of each file:
   
   <li><b>fiber_over_discriminant.jl</b> contains the code to compute the $w,b$-parameters that cause a neural network of width 2 depth 2 to correspond exactly to the discriminant polynomial. This code appears in the proof of Proposition 4.2. </li>
   
-  <li><b>Quad WOD1.ipynb, Quad W1D2.ipynb, Quad W1D3.ipynb, Semi Quad W1D2.ipynb, Semi Quad W1D3.ipynb, Semi Quad W1D4.ipynb, Semi Quad W2D2.ipynb</b> These files compute the function classes of a quadratic or semi quadratic neural network of width k and depth d. This code appears in the proof of Theorem 3.1 and Theorem 4.1.</li>
+  <li><b>Quad W0D1.ipynb, Quad W1D2.ipynb, Quad W1D3.ipynb, Semi Quad W1D2.ipynb, Semi Quad W1D3.ipynb, Semi Quad W1D4.ipynb, Semi Quad W2D2.ipynb</b> These files compute the function classes of a quadratic or semi quadratic neural network of width k and depth d. This code appears in the proof of Theorem 3.1 and Theorem 4.1.</li>
   
   <li><b>data_generator.py:</b> This file is responsible for creating the dataset used for training and testing the neural networks. It generates parameters and their corresponding real root structures.</li>
   
