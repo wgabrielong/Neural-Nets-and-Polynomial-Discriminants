@@ -5,9 +5,9 @@ This GitHub repository contains code for the forthcoming paper "Neural Networks 
 Herein, we describe the functionality of each file: 
 
 <ul>
-  <li><b>ED_computation.jl</b> contains the computation of solutions to the critical points of the hypersurface in $\mathbb{R}^{6}$ defining the function class of depth 1 width 0 neural networks. It returns a Julia dataframe with real critical points and their corresponding distances in $\mathbb{R}^{6}$ to the discriminant polynomial </li>
+  <li><b>$\texttt{ED_computation.jl}$</b> contains the computation of solutions to the critical points of the hypersurface in $\mathbb{R}^{6}$ defining the function class of depth 1 width 0 neural networks. It returns a Julia dataframe with real critical points and their corresponding distances in $\mathbb{R}^{6}$ to the discriminant polynomial </li>
   
-  <li><b>fiber_over_discriminant.jl</b> contains the code to compute the $w,b$-parameters that cause a neural network of width 2 depth 2 to correspond exactly to the discriminant polynomial. </li>
+  <li><b>$\texttt{fiber_over_discriminant.jl}$</b> contains the code to compute the $w,b$-parameters that cause a neural network of width 2 depth 2 to correspond exactly to the discriminant polynomial. </li>
   
   <li><b></b> This script includes the code to compute the discriminant of the polynomial system. It uses both the traditional method involving Gröbner bases and the novel machine learning approach introduced in the paper.</li>
   
