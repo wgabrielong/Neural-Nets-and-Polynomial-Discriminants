@@ -11,7 +11,7 @@ Herein, we describe the functionality of each file:
   
   <li><b>Quad W0D1.ipynb, Quad W1D2.ipynb, Quad W1D3.ipynb, Semi Quad W1D2.ipynb, Semi Quad W1D3.ipynb, Semi Quad W1D4.ipynb, Semi Quad W2D2.ipynb</b> These files compute the function classes of a quadratic or semi quadratic neural network of width k and depth d. This code appears in the proof of Theorem 3.1 and Theorem 4.1.</li>
   
-  <li><b>data_generator.py:</b> This file is responsible for creating the dataset used for training and testing the neural networks. It generates parameters and their corresponding real root structures.</li>
+  <li><b>Quad W2D2 1st Entry Fct Class.ipynb</b> computes the function class of the first entry of the vector output of a width 2 depth 2 neural network. This code appears in the proof of Proposition 3.7. </li>
   
   <li><b>decision_boundary_visualization.py:</b> This script provides functions for visualizing the decision boundaries formed by the neural networks. It helps in validating the accuracy of the machine learning approach to approximating the discriminant locus.</li>
   
